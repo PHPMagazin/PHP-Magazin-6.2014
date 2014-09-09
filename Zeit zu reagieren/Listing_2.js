@@ -1,0 +1,1 @@
+React.renderComponent(    <HelloWorld />,    document.getElementById('content'));
