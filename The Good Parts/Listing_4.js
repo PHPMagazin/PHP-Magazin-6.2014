@@ -1,0 +1,1 @@
+function onConnectionEstablished(l8) {  var x = 0;  var y = 0;    function next() {    l8.write(      buildFrame(        paintRed(x,y)      ),      function() {        setTimeout(next, 50);      }    );        if (x >= 7) {      y = (y+1) % 8;    }        x = (x+1) % 8   }    next();}

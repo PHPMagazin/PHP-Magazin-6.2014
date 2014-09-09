@@ -1,0 +1,1 @@
+var CRC8 = require("crc").CRC8;function buildFrame(payload) {  var frame = new Buffer(    2 /*MAGIC_BYTES*/ + 1 /*LENGTH*/ + payload.length + 1 /*CHECKSUM*/  );  frame[0] = 0xAA;  frame[1] = 0x55;  frame[2] = payload.length;  payload.copy(frame, 3, 0);  frame[frame.length-1] = (new CRC8()).update(payload).checksum()    return frame;}

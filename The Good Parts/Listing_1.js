@@ -1,0 +1,1 @@
+var SerialPort = require("serialport").SerialPort;var l8 = new SerialPort("/dev/tty.usbmodem1413411", {  baudrate: 115200,  databits: 8,  stopbits: 1,  parity: "none"});l8.open(function() {  // Connection has been established  onConnectionEstablished(l8);});

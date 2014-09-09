@@ -1,0 +1,1 @@
+function paintRed(x, y) {  var payload = new Buffer(    1 /*COMMAND*/ + 2 /*COORDINATES*/ + 3 /*BGR*/  );  payload[0] = 0x43;  payload[1] = x;  payload[2] = y;  payload[3] = 0x00;  payload[4] = 0x00;  payload[5] = 0x0f;  return payload;}
