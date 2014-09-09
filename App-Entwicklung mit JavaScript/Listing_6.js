@@ -1,0 +1,1 @@
+function sayMyName(e) {  alert( "Heisenberg" );}// $.index referenziert das erste Objekt der index.xml-Datei// In unserem Fall das "Window"-Objekt$.index.open();

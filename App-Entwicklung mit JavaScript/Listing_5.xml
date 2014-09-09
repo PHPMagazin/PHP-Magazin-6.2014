@@ -1,0 +1,1 @@
+<Alloy>  <Window>    <Label id="label" onClick="sayMyName">Say My Name</Label>  </Window></Alloy>

@@ -1,0 +1,1 @@
+// Selbstausführende anonyme Funktion, die alleine im globalen Namensraum liegt(function() {    // Lade das "HelloWorldWindow" CommonJS Modul via require    // CommonJS-Module werden ohne die Dateiendung JS geladen    var Window = require(‘HelloWorldWindow');    // Erzeuge ein neues "Window"-Objekt und öffne es    new Window().open();})();

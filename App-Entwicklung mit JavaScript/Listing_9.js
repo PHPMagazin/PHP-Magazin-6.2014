@@ -1,0 +1,1 @@
+if( OS_ANDROID ) {  // Meine Android-spezifische Anpassung  alert("Hallo Android");} if( OS_BLACKBERRY ){  alert("Hallo BB10");}if( OS_IOS ) {  alert("Hallo iOS");}

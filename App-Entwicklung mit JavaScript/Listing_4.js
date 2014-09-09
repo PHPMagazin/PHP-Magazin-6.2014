@@ -1,0 +1,1 @@
+if( Ti.Platform.osname === "android" ){  // Meine Android-spezifische Anpassung  alert("Hallo Android");} if( Ti.Platform.osname === "blackberry" ) {  alert("Hallo BB10");}if( Ti.platform.osname === "iphone" ){  alert("Hallo iPhone und iPod");}if( Ti.Platform.osname === "ipad" ){  alert("Hallo iPad");}
