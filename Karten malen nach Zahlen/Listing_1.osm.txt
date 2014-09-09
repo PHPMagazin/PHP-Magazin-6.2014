@@ -1,0 +1,1 @@
+<node id="1456997274" lat="53.5507099" lon="9.9701915">  <tag k="name" v="St. Pauli" />  <tag k="public_transport" v="stop_position" />  <tag k="railway" v="station" /></node>

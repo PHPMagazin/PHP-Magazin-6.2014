@@ -1,0 +1,1 @@
+# OsmType  Tag           DataType   Flagsnode,way   boundary      text       linearnode,way   building      text       polygonnode       capital       text       linearway        area:highway  text       phstorenode,way   highway       text       linearnode,way   note          text       delete
