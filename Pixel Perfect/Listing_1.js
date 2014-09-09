@@ -1,0 +1,1 @@
+var lastTime = 0;function loop(time) {    // die Callback-Funktion zur Berechnung der Laufzeit    // time = Timestamp des aktuellen Aufrufs    var delay = time – lastTime;    var fps = 1000/delay;    console.log(delay + ' ms' fps);    updateAnimation();    requestAnimationFrame(loop);    lastTime = time;}requestAnimationFrame(loop);
