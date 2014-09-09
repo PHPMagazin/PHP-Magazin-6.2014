@@ -1,0 +1,1 @@
+var fs = require ('fs');fs.readFile('/tmp/input', function (err, data) {    if (err) throw err;    console.log(data);});var http = require('http');var server = http.createServer();server.on('request', function (req, res) {    res.end('Hello Client');});server.listen('8080');

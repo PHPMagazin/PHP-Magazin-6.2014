@@ -1,0 +1,1 @@
+var a = {  name: 'klaus',  getName: function (e) {    alert('Hallo ' + this.name);  }}$('#myButton').on('click', a.getName.bind(a));$('#myButton').trigger('click');
